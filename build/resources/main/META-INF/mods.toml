@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+
+modId = "strong_love"
+version = "1.0"
+displayName = "Alpha Test"
+logoFile="strong_love.png"
+updateJSONURL = ""
+
+description = '''
+Authors:
+- §dLinnett§r
+
+Musicians:
+
+Art/Idea-makers:
+- §bLinnett§r
+
+Trunslations:
+
+
+'''
+
+
+[[dependencies."strong_love"]]
+
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."strong_love"]]
+
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

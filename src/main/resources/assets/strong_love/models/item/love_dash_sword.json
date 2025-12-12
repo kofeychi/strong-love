@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "strong_love:item/love_dash_sword"
+  }
+}
